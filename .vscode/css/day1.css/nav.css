@@ -1,0 +1,8 @@
+ @import url('./main.css');
+ 
+ 
+ nav{
+    border: 2px;
+    height: 70px;
+    background-color: aqua;
+}

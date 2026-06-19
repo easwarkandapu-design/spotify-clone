@@ -1,0 +1,30 @@
+[id]{
+    background-color: aqua;
+}
+[class]{
+    background-color: aquamarine;
+}
+[class="d6"]{
+    background-color: brown;
+}
+[name]{
+    background-color: blue;
+}
+[name=""]{
+    background-color: hotpink;
+}
+[class*="red"]{
+    background-color: green;
+}
+[class~="red"]{
+    background-color: rgb(0, 179, 255);
+}
+[class^="red"]{
+    background-color: brown;
+}
+[class|="red"]{
+    background-color: cadetblue;
+}
+[class$="red"]{
+    background-color:gold;
+}

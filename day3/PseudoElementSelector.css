@@ -1,0 +1,27 @@
+p::first-letter{
+    background-color: aqua;
+}
+p::first-line{
+    background-color: burlywood;
+}
+p::after{
+    content:"hello"}
+p::before{
+    content:"hello"
+}
+ol>li::marker{
+    content: "😊";
+}
+ol>li+li::marker{
+    content: "🥵";
+
+}
+ol>li+li+li::marker{
+    content: "😎";
+}
+p::after{
+    content: "😍👌";
+}
+section::selection{
+    background-color: aquamarine;
+}

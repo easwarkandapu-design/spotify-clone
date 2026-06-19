@@ -1,0 +1,35 @@
+a:link{
+    color: aqua;
+}
+a:active{
+    color: brown;
+}
+a:visited{
+    color: chartreuse;
+}
+#inp1:focus{
+    background-color:hotpink;
+    color: azure;
+}
+#inp2:checked{
+    height: 40px;
+    width:40px;
+    accent-color: red;
+}
+section{
+      border: 2px solid;
+      height: 100px;
+      width: 100px;
+
+}
+section:hover{
+    background-color: hotpink;
+}
+p:hover{
+    color: aqua;
+    background-color: black;
+    cursor: pointer;
+    cursor: crosshair;
+    cursor: no-drop;
+
+}

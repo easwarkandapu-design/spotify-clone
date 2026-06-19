@@ -1,0 +1,46 @@
+nav{
+    border: 2px solid;
+    height: 100%;
+    width:100%;
+    background-color: aquamarine;
+    /* position: fixed;
+    width: 50%; */
+    position: sticky;
+    top: 0%;
+}
+section{
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+
+}
+#d1{
+    background-color: brown;
+
+}
+#d2{
+    background-color: darkcyan;
+    /* position: static;
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+    right: 20%; */
+    position: absolute;
+    left: 25%;
+    /* right: 0%; */
+    top: 0%;
+    /* bottom: 0%; */
+
+}
+#d3{
+    background-color: khaki;
+    position: absolute;
+    top: 0%;
+    right: 24%;
+}

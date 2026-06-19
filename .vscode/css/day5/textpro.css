@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-style: double;
+    text-decoration-style: dashed;
+    text-decoration-style: dotted;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-decoration-thickness: 4px;
+    color:  aqua;
+
+}
+p{
+    text-indent: 100px;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    line-height: 50px;
+    /* letter-spacing: -3px; */
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+h2{
+    text-shadow: 1px 1px 2px red;
+}

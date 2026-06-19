@@ -1,0 +1,87 @@
+footer{
+    border: 2px solid;
+    height: 400px;
+    width: 100%;
+    font-size: 15px;
+    background-color: rgb(33, 27, 27);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#d0{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+#d1{
+    margin-left: 14%;
+    margin-top: -1.7%;
+}
+#d2{
+    margin-left: 28%;
+    margin-top: -11.8%;
+}
+#d3{
+    margin-left: 44%;
+    margin-top: -20.4%;
+}
+#d4{
+    margin-left: 60%;
+    margin-top: -20.3%;
+}
+#d5{
+    margin-left: 78%;
+    margin-top: -15%;
+    font-size: 30px;
+
+}
+#d6{
+    margin-left:85% ;
+    margin-top: -3.4%;
+    font-size: 25px;
+}
+#d7{
+    margin-left: 92%;
+    margin-top: -3.4%;
+    font-size: 30px;
+}
+#d8{
+    margin-left: 5%;
+    margin-top: -1.9%;
+    margin-top: 19%;
+}
+#d9{
+    margin-left: 10%;
+    margin-top: -1.8%;
+}
+#d10{
+    margin-left: 26%;
+    margin-top: -1.8%;
+}
+#d11{
+    margin-left: 37%;
+    margin-top: -1.8%;
+}
+#d12{
+    margin-left: 43%;
+    margin-top: -1.7%;
+}
+#d13{
+    margin-left: 51%;
+    margin-top: -1.8%;
+}
+#d14{
+    margin-left: 82%;
+    margin-top: -5%;
+}
+#d01{
+    margin-left: 5.4%;
+    margin-top: -2.1%;
+}
+img{
+    width: 35px;
+    height: 35px;
+}
+#d15{
+    height: 22px;
+    width: 22px;
+}

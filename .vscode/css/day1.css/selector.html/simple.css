@@ -1,0 +1,33 @@
+#d1{
+    background-color: aqua;
+}
+.d2{
+    background-color: blueviolet;
+}
+h1{
+    background-color: darkgreen;
+
+}
+body{
+    background-color: black;
+}
+main,section,#d1,.d2,h1{
+    background-color: brown;
+}
+*{
+    color: white;
+    background-color: black;
+}
+body{
+    background-color:hotpink;
+}
+.d4{
+    background-color: aquamarine;
+}
+#d3{
+    background-color: azure;
+
+}
+aside{
+    background-color: blue;
+}

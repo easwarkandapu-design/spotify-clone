@@ -1,0 +1,19 @@
+/* descendent selected */
+div h1{
+    background-color: aqua;
+}
+/* child */
+div>h1{
+    background-color: hotpink;
+}
+/* adjacent sibling */
+ div>h1+h2{
+    background-color: aquamarine;
+} 
+div h1+h2{
+    background-color: brown;
+}
+/* general sibling */
+div>h1~h2{
+    background-color: chartreuse;
+} 

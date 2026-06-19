@@ -1,0 +1,31 @@
+p{
+    background-color: aquamarine;
+    background-image: url(./img.1.jpg);
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 200px; */
+    /* background-size: 100px 50px; */
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom right ;
+    background-position: top center;
+    background-position: top left;
+    background-position: top right;
+    background-position: bottom left;
+    background-position: bottom center;
+    background-position: center left;
+    background-position: center right;
+    background-position: center;
+    /* background-size: 400px; */
+    background-attachment: scroll;
+    background-attachment: fixed;
+}
+section{
+       /* background-image: url(./img.1.jpg); */
+       /* background-size: 400px; */
+       /* background-attachment:fixed ; */
+       background: lavender url(./img.1.jpg) 200px/200px  fixed no-repeat;
+}

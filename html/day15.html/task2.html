@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Details Form</title>
+    <style>
+        .v1 { color: red; }
+    </style>
+</head>
+<body>
+    <center>
+        <form>
+              <table border="2">
+                    <tr>
+                        <td colspan="4" align="center"><b>1.Key Employment Details</b></td>
+                        <!-- <td></td>
+                        <td></td>
+                        <td></td> -->
+                    </tr>
+                    <tr>
+                        <td>1.1<sup style="color: red;">*</sup>Surname:</td>
+                        <td><input type="text"></td>
+                        <td>1.2<sup style="color: red;">*</sup>Name:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                   <tr>
+                    <td rowspan="2">1.3<sup style="color: red;">*</sup>Gender:</td>
+                    <td rowspan="2"><input type="radio" name="v1">Male <input type="radio" name="v1">Female</td>
+                    <td rowspan="2">1.4 Father/Mother:</td>
+                    <td rowspan="2"><input type="radio" name="v1">Father <input type="radio" name="v1">Mother <br><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <!-- <td></td> -->
+                    <!-- <td></td>
+                    <td></td>
+                    <td></td> -->
+                   </tr>
+                   <tr>
+                    <td>1.5<sup style="color: red;">*</sup>Date of Birth:</td>
+                    <td><input type="date"> <span class="v1">(DD/MM/YYYY)</span></td>
+                    <td>1.6<sup style="color: red;">*</sup>Designation/post:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td>1.7<sup style="color: red;">*</sup>maritial status:</td>
+                    <td><select name="maritalStatus" id="maritalStatus">
+                        <option value="">Select</option>
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                    </select></td>
+                    <td>1.8<sup style="color: red;">*</sup>Office in Which Employee is working:</td>
+                    <td><select name="office" id="office">
+                        <option value="">Select</option>
+                        <option value="office1">Office 1</option>
+                        <option value="office2">Office 2</option>
+                    </select></td>
+                   </tr>
+                   <tr>
+                    <td>1.9 Aadhar Number:</td>
+                    <td><input type="text"></td>
+                    <td>1.10 EPF NUMBER:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td rowspan="2">1.11<sup style="color: red;">*</sup>Remunaration per month:</td>
+                    <td rowspan="2"><input type="text"></td>
+                    <td rowspan="2">1.12<sup style="color: red;">*</sup>Commission payable to the agency for the post:</td>
+                    <td><input type="radio" name="commission">Amount <input type="radio" name="commission">Percentage(%) <br><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                   </tr>
+                   <tr>
+                    <td>1.13<sup style="color: red;">*</sup>Head of Account:</td>
+                    <td><select name="" id="">
+                        <option value="">select</option>
+                        <option value="">2000</option>
+                        <option value="">3000</option>
+                    </select></td>
+                    <td>1.14 Personal mobile No:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td>1.15 Personal Email:</td>
+                    <td><input type="email"></td>
+                    <td>1.16 <sup style="color: red;">*</sup>Communit:</td>
+                    <td><select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">General</option>
+                        <option value="">OBC</option>
+                        <option value="">SC</option>
+                        <option value="">ST</option>
+                    </select></td>
+                   </tr>
+                   <tr>
+                    <td colspan="4"><center><b>2.Agency Details</b></center></td>
+                    <!-- <td></td>
+                    <td></td>
+                    <td></td> -->
+                   </tr>
+                   <tr>
+                    <td>2.1 <sup style="color: red;">*</sup>Contract Start Date:</td>
+                    <td><input type="date"> <span class="v1">(DD/MM/YYYY)</span></td>
+                    <td>2.2 <sup style="color: red;">*</sup>Contract End Date:</td>
+                    <td><input type="date"> <span class="v1">(DD/MM/YYYY)</span></td>
+                   </tr>
+                   <tr>
+                    <td>2.3 Contract Ref Number:</td>
+                    <td><input type="text"></td>
+                    <td>2.4 Sanction Order Number:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td>2.5 Agency Name:</td>
+                    <td><input type="text"></td>
+                    <td>2.6 Pan Number:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td>2.7 Registration Number Register with Labour Department:</td>
+                    <td><input type="text"></td>
+                    <td>2.8 Service Tax Number:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td>2.9 Land Mark:</td>
+                    <td><input type="text"></td>
+                    <td>2.10 Street/Town/City:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td>2.11 Area/location/Sector</td>
+                    <td><input type="text"></td>
+                    <td>2.12 <sup style="color: red;">*</sup>District:</td>
+                    <td><select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">Srikakulam</option>
+                        <option value="">Vizag</option>
+                    </select></td>
+                   </tr>
+                   <tr>
+                    <td>2.13 <sup style="color: red;">*</sup>mandal</td>
+                    <td><select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">sompeta</option>
+                        <option value="">palasa</option>
+                    </select></td>
+                    <td>2.14 <sup style="color: red;">*</sup>Village</td>
+                    <td><select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">yekuvuru</option>
+                        <option value="">nadumuru</option>
+                    </select></td>
+                   </tr>
+                   <tr>
+                    <td>2.15 Pin Code:</td>
+                    <td><input type="text"></td>
+                    <td>2.16 Telephone:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td>2.17 <sup style="color: red;">*</sup>mobile:</td>
+                    <td><input type="text"></td>
+                    <td>2.18 Email:</td>
+                    <td><input type="email"></td>
+                   </tr>
+                   <tr>
+                    <td>2.19 Bank name:</td>
+                    <td><input type="text" placeholder="select Bank Name"></td>
+                    <td>2.20 District:</td>
+                    <td><select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">Srikakulam</option>
+                        <option value="">Vizag</option>
+                    </select></td>
+                   </tr>
+                   <tr>
+                    <td>2.21 Bank Branch:</td>
+                    <td><input type="text" placeholder="select Bank Branch"></td>
+                    <td>2.22 Bank Account Number:</td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td rowspan="1">2.23 IFSC Code:</td>
+                    <td><input type="text"></td>
+                    <!-- <td></td>
+                    <td></td> -->
+                   </tr>
+                   <tr>
+                    <td colspan="4"><center><input type="submit" value="Save Data"></center></td>
+                    <!-- <td></td>
+                    <td></td>
+                    <td></td> -->
+                   </tr>
+              </table>
+        </form>
+    </center>
+</body>
+</html>
